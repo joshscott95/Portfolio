@@ -4,36 +4,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
   <link rel="stylesheet" href="styles.css">
   <title>My Portfolio</title>
 </head>
 
 <body>
   <nav id="navbar">
+    <h3 class="logo">Joshua.dev</h3>
     <ul>
       <li><a href="#welcome-section">Welcome</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact"> Contact</a></li>
+      <li><i class="fa-solid fa-bars-staggered mobile-menu"></i></li>
     </ul>
   </nav>
+  
+
 
   <section id="welcome-section">
-    <div class="name-container">
-        <h1>Joshua Scott</h1>
-        <p>A full-stack developer</p>
+    <div class="container">
+      <div class="content">
+        <div class="main">
+          <div class="text-side">
+            <h1>Full-stack developer</h1>
+            <h4>Hi, I'm Joshua Scott. <br><br> A passionate full-stack developer. <br><br>Learning through doing. </h4>
+            <a class="profile-link" href="https://github.com/joshscott95" target="_blank"
+              style="margin-top: 30px; display: inline-block; font-size: 25px;">
+              <i class="bi bi-github"></i>
+            </a>
+            <a class="profile-link" href="https://www.linkedin.com/in/joshuascott95/" target="_blank"
+              style="margin-top: 30px; display: inline-block; font-size: 25px;">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+          <div class="img-side">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <!-- Skills Section Starts Here -->
+        <div class="skills">
+          <p>Skills</p>
+          <div class="logos">
+            <ul>
+              <li><img src="static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg" title="css3" alt="skill-icon"></li>
+              <li><img src="static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg" title="HTML" alt="skill-icon"></li>
+              <li><img src="static/media/javascript.de4c2594613e34b15666206bbede7327.svg" title="Java Script"
+                  alt="skill-icon"></li>
+              <li><img src="static/media/react.afac9c43724070bf6674f2692b7356a9.svg" title="REACT" alt="skill-icon">
+              </li>
+              <li><img src="static/media/icons8-python-375.png" title="Python" alt="skill-icon"></li>
+              <li><img src="static/media/icons8-django.svg" title="Django" alt="skill-icon"></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Skills Section Ends Here -->
+
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="img-side">
+          <img src="static/media/about-img.62b47e7f183d4b4e9feb.webp" alt="motorcyycle" class="motorcycle">
+        </div>
+        <div class="text-side">
+          <h3>About me</h3>
+          <h4>A dedicated Full-stack developer<br> based in Seattle, Wa 📍</h4>
+          <p>Hey yo</p>
+        </div>
+      </div>
     </div>
   </section>
 
+
   <section id="projects">
     <div class="project-tile">
-      <h2>Project Title</h2>
-      <p>Project description goes here.</p>
+      <h2>Auto Flow</h2>
+      <p>The premiere solution for automobile dealership management!</p>
       <a href="#" target="_blank">View Project</a>
     </div>
   </section>
 
   <footer>
-    <a id="profile-link" href="https://github.com/joshscott95" target="_blank">github</a>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 </body>
 
 </html>
