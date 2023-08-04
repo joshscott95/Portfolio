@@ -8,7 +8,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="static/styles.css"> -->
+  <link href="output.css" rel="stylesheet">
   <title>My Portfolio</title>
 </head>
 
@@ -19,7 +21,7 @@
       <li><a href="#welcome-section">Welcome</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact"> Contact</a></li>
+      <!-- <li><a href="#contact"> Contact</a></li> -->
       <li><i class="fa-solid fa-bars-staggered mobile-menu"></i></li>
     </ul>
   </nav>
@@ -54,7 +56,7 @@
             <ul>
               <li><img src="static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg" title="css3" alt="skill-icon"></li>
               <li><img src="static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg" title="HTML" alt="skill-icon"></li>
-              <li><img src="static/media/javascript.de4c2594613e34b15666206bbede7327.svg" title="Java Script"
+              <li><img src="static/media/javascript.de4c2594613e34b15666206bbede7327.svg" title="JavaScript"
                   alt="skill-icon"></li>
               <li><img src="static/media/react.afac9c43724070bf6674f2692b7356a9.svg" title="REACT" alt="skill-icon">
               </li>
@@ -95,44 +97,111 @@
     </div>
   </section>
 
-
   <section id="projects" class="project">
     <div class="container">
       <div class="project-content">
-        <p>Portfolio</p>
-        <h3>Check it out</h3>
+        <p>portfolio</p>
+        <h3></h3>
         <div class="projects-grid">
-          <div class="pro pro__1 undefined">
+          <!-- Project 1 -->
+          <div class="pro pro__1">
             <div class="pro__img">
-              <a target="_blank" href="static/media/pexels-pixabay-164634.jpg" rel="noreferrer">
-                <img class="pro-img" src="static/media/pexels-pixabay-164634.jpg" alt="Auto Flow">
+              <a target="_blank" href="https://github.com/joshscott95/Autoflow" rel="noreferrer">
+                <img src="static/media/pexels-pixabay-164634.jpg" alt="Autoflow">
               </a>
             </div>
             <div class="pro__text">
               <h3>Auto Flow 🚗</h3>
-              <p>The premiere solution for automobile dealership management!</p>
+              <p>The premiere solution for automobile dealership
+                management!
+              </p>
               <div class="stack">
-                <p>Python</p>
-                <p>Django</p>
                 <p>React</p>
+                <p>Django</p>
+                <p>Python</p>
               </div>
-              <div class="links">
-                <a class="profile-link" href="https://github.com/joshscott95/AutoFlow" target="_blank"
-                  style="margin-top: 30px; display: inline-block; font-size: 25px;">
-                  <i class="bi bi-github"></i>
-                  <a target="_blank" href="https://github.com/joshscott95/AutoFlow" rel="noreferrer">Live Demo<i
-                      class="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
-              </div>
+              <div class="links"></div>
+              <a class="my-links" target="_blank" href="https://github.com/joshscott95/Autoflow" rel="noreferrer"
+                style="margin-top: 30px; display: inline-block; font-size: 25px;">Code <i class="bi bi-github"></i></a>
             </div>
           </div>
-          <!-- Add more projects here -->
+          <!-- Project 2 -->
+          <div class="pro pro__1 reversed-proj">
+            <div class="pro__img">
+              <a target="_blank" href="https://github.com/joshscott95/ConferenceGO" rel="noreferrer">
+                <img src="static/media/pexels-helena-lopes-705792.jpg" alt="helena">
+              </a>
+            </div>
+            <div class="pro__text">
+              <h3>Conference GO 🪙</h3>
+              <p>For all your conference event organizing needs.
+              </p>
+              <div class="stack-reverse">
+                <p>Bootstrap</p>
+                <p>Django</p>
+                <p>Python</p>
+              </div>
+              <div class="links"></div>
+              <a class="my-links" target="_blank" href="https://github.com/joshscott95/ConferenceGO" rel="noreferrer"
+                style="margin-top: 30px; display: inline-block; font-size: 25px;">Code <i class="bi bi-github"></i></a>
+              <!-- More text and links... -->
+            </div>
+          </div>
+          <!-- More projects... -->
         </div>
       </div>
     </div>
   </section>
 
 
+  <!-- <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact__content">
+        <div class="contact__title">
+          <p>contact</p>
+          <h3>Send me an email 👇</h3>
+        </div>
+        <div class="contact__icons">
+          <div class="contact__icon-box"><span><i class="fa-solid fa-map-location-dot"></i></span>
+            <div class="contact__info">
+              <h3>Seattle</h3>
+              <p>WA, USA</p>
+            </div>
+          </div>
+          <div class="contact__icon-box"><span><i class="fa-solid fa-envelope-open-text"></i></span>
+            <div class="contact__info">
+              <h3>Mail</h3><a href="mailto:stefan.topallovic@gmail.com">joshscott95@yahoo.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ -->
+
+
+
+
+
+
+
+
+
+
+
   <footer>
+    <div class="footer-container">
+      <div class="social-media">
+        <a href="https://github.com/joshscott95" target="_blank" class="social-icon">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/joshuascott95/" target="_blank" class="social-icon">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
