@@ -1017,7 +1017,7 @@ body {
 }
 
 .about h3 {
-  color: blue;
+  color: #147efb;
 }
 
 
@@ -1039,10 +1039,10 @@ body {
 
 .project-content p {
   color: #147efb;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: bold;
   margin-bottom: 1rem;
-  text-transform: uppercase;
+  
 }
 
 .projects-grid {
@@ -1058,7 +1058,6 @@ body {
   font-size: 1.7rem;
   margin-bottom: 2rem;
   position: relative;
-  text-transform: uppercase;
 }
 
 .projects-grid .pro__text p {
@@ -1104,10 +1103,8 @@ body {
   text-align: center;
 }
 .pro__text h3 {
-  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: #333;
-  text-transform: uppercase;
 }
 
 
@@ -1121,7 +1118,7 @@ body {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   color: #000!important;
-  font-family: Mulish, sans-serif!important;
+  font-family: "Literata";
   font-weight: 400!important;
   padding: .4rem .6rem; /* You can adjust the padding to change the size of the stack boxes */
   text-align: center;
@@ -1138,7 +1135,7 @@ body {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   color: #000!important;
-  font-family: Mulish, sans-serif!important;
+  font-family: 'Literata';
   font-weight: 400!important;
   padding: .4rem .6rem; 
   text-align: center;
