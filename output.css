@@ -821,7 +821,7 @@ body {
 #navbar .logo {
   /* Styles for the logo, adjust as necessary */
   color: #2d2e32;
-  cursor: pointer;
+  pointer-events: none;
 }
 
 #navbar .mobile-menu {
@@ -873,7 +873,7 @@ body {
 }
 
 .text-side .profile-link:hover {
-  color: blue;
+  color: #147efb;
 }
 
 .text-side h1 {
@@ -965,7 +965,6 @@ body {
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, .09);
-  cursor: pointer;
   display: flex;
   height: 5rem;
   justify-content: center;
@@ -1101,6 +1100,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  
 }
 .pro__text h3 {
   font-size: 24px;
@@ -1122,6 +1122,7 @@ body {
   font-weight: 400!important;
   padding: .4rem .6rem; /* You can adjust the padding to change the size of the stack boxes */
   text-align: center;
+  cursor: default;
 }
 
 .stack-reverse {
@@ -1129,6 +1130,8 @@ body {
   justify-content: center;
   gap: .5rem;
   padding-left: 4rem;  /* Adjust this value to create some space from the left edge */
+  cursor: default;
+
 }
 
 .stack-reverse p {
@@ -1138,6 +1141,7 @@ body {
   font-family: 'Literata';
   padding: .4rem .6rem; 
   text-align: center;
+  cursor: default;
 }
 
 
